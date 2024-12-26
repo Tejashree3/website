@@ -1,0 +1,100 @@
+/* Investment.css */
+
+.investment-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-us-section {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .about-us-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .invest-title{
+    line-height: 40px;
+  }
+  
+  .about-us-section p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .learn-more, .watch-video {
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .learn-more {
+    background-color: var(--primaryClr);
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .learn-more:hover {
+    background-color:  var(--primaryClr);
+  }
+  
+  .watch-video {
+    background-color: white;
+    color:  var(--primaryClr);
+    border: 1px solid  var(--primaryClr);
+  }
+  
+  .watch-video:hover {
+    background-color:  var(--primaryClr);
+    color: white;
+  }
+  
+  .stats-section {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .stat-item {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 45%;
+  }
+  
+  .stat-item h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  
+
+
+@media screen and (max-width: 768px) {
+  .investment-container{
+    flex-direction: column;
+  }
+}

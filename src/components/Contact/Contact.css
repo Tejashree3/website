@@ -1,0 +1,144 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 50px 50px 50px;
+
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+
+  }
+
+  .contact-left {
+    width: 50%;
+    padding-right: 40px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+  }
+
+  .contact-left h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .contact-left p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-input, .form-textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .form-textarea {
+    height: 120px;
+  }
+
+  .submit-button {
+    padding: 15px;
+    background-color: var(--primaryClr);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .contact-right {
+    width: 45%;
+
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .contact-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .contact-info {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-box{
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+        flex-direction: column;
+        gap: 10px;
+  }
+  .contact-info-box {
+   
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+  }
+
+
+  .contact-info-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .contact-info-content p {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .contact-info-content svg {
+    color: var(--primaryClr);
+  }
+  .first{
+    display: flex;
+    gap: 10px;
+  }
+
+
+  @media only screen and (max-width:767px) {
+    .contact-content{
+      flex-direction: column;
+     
+    }
+    .contact-right,
+    .contact-left{
+      width: 100%;
+    }
+  }
+
+
